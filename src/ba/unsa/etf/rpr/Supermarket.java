@@ -1,7 +1,5 @@
 package ba.unsa.etf.rpr;
 
-import java.util.Arrays;
-
 public class Supermarket {
     private int zauzeto = 0;
 
