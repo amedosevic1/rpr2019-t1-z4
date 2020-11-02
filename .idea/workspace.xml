@@ -19,11 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac9f930-cdc3-4864-aead-35f9a2246f6f" name="Default Changelist" comment="Popraviti gresku" />
+    <list default="true" id="fac9f930-cdc3-4864-aead-35f9a2246f6f" name="Default Changelist" comment="Popravili smo citav zadatak">
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,12 +47,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.KorpaTest.test1">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -47,6 +74,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KorpaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KorpaTest.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603635252158</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Popravili smo citav zadatak">
+      <created>1603736543510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603736543510</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,7 +136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Popraviti gresku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Popraviti gresku" />
+    <MESSAGE value="Popravili smo citav zadatak" />
+    <option name="LAST_COMMIT_MESSAGE" value="Popravili smo citav zadatak" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603631875513">
@@ -96,29 +152,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1603631863932" />
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1603736049893">
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1604339235055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603736049893" />
-    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1603736049893">
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604339235055" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1604339235054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603736049893" />
-    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1603736049893">
+    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604339235054" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1604339235054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603736049893" />
-    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1603736049893">
+    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604339235054" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1604339235054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603736049893" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604339235054" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1603631937275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603631937275" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603635393133">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603736560480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603635393133" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603736560480" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604338004299">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1604338004299" />
+    <state x="540" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604338237104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1604338237104" />
   </component>
 </project>
